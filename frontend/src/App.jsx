@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import viteLogo from '/vite.svg'
 import HomePage from './pages/HomePage'
-import Navbar from "./components/Navbar"
+import Navbar from "./components/NavBar"
 import { Box } from '@chakra-ui/react'
 import { Route, Routes } from 'react-router-dom'
 import BookNow from './pages/BookNow'
