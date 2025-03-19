@@ -1,4 +1,0 @@
-# _headers
-
-/*
-  Content-Security-Policy: default-src 'self'; script-src 'self' https://www.vagaro.com 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://www.vagaro.com; connect-src 'self'; object-src 'none';
