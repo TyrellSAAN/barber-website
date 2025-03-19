@@ -1,0 +1,4 @@
+[[headers]]
+  for = "/*"
+    [headers.values]
+    Content-Security-Policy = "script-src 'self' https://www.vagaro.com; frame-src 'self' https://www.vagaro.com"
