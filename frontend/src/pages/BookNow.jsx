@@ -22,7 +22,7 @@ const BookNow = () => {
       </Text>
 
       <iframe
-        src="https://www.vagaro.com/your-business-booking-url"
+        src="https://www.vagaro.com/michellecuts"
         width="100%"
         height="800px"
         style={{
