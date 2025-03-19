@@ -1,0 +1,5 @@
+/*
+  Content-Security-Policy: script-src 'self' https://www.vagaro.com 'unsafe-eval';
+  X-Frame-Options: ALLOW-FROM https://www.vagaro.com
+  Referrer-Policy: no-referrer-when-downgrade
+  Permissions-Policy: fullscreen=(self)
