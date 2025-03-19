@@ -1,4 +1,17 @@
+# netlify.toml
 [[headers]]
   for = "/*"
   [headers.values]
+    # Existing CSP (example)
     Content-Security-Policy = "default-src 'self'; script-src 'self' https://www.vagaro.com 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://www.vagaro.com; connect-src 'self'; object-src 'none';"
+
+    # Recommended headers
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    Permissions-Policy = "geolocation=(), microphone=(), camera=()"
+
+    # Note: X-XSS-Protection is deprecated in modern browsers, 
+    # but you can add it if you want for older browsers:
+    # X-XSS-Protection = "1; mode=block"
