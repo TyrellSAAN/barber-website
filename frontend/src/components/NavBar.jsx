@@ -62,8 +62,8 @@ const Navbar = () => {
                     </HStack>
 
                     <Button
-                        as={RouterLink}
-                        to="/book-now"
+                        as="a"
+                        href="https://www.vagaro.com/michellecuts/book-now"
                         colorScheme="pink"
                         bg="#db4675"
                         color="white"

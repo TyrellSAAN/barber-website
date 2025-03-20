@@ -69,8 +69,8 @@ const HomePage = () => {
             Book an appointment now!
           </Text>
           <Button 
-            as={RouterLink}
-            to="/book-now"
+            as="a"
+            href="https://www.vagaro.com/michellecuts/book-now"
             colorScheme="pink" 
             size="sm" // ✅ Makes it smaller
             bg="#db4675"
