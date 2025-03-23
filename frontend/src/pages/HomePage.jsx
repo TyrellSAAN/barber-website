@@ -73,7 +73,7 @@ const HomePage = () => {
             href="https://www.vagaro.com/michellecuts/book-now"
             colorScheme="pink" 
             size="sm" // ✅ Makes it smaller
-            bg="#029685"
+            bg="#698c72"
             color="white"
             w="fit-content"
             px={3}   // ✅ Reduces left & right padding
@@ -97,7 +97,7 @@ const HomePage = () => {
         >
           {/* 📞 Phone Number */}
           <Flex align="center">
-            <Icon as={FaPhoneAlt} color="#029685" boxSize={5} mr={3} />
+            <Icon as={FaPhoneAlt} color="#698c72" boxSize={5} mr={3} />
             <Box>
               <Text fontWeight="bold" fontSize="xl" color="gray.200" style={{ fontFamily: "Poppins, sans-serif" }}>(669) 302-2018</Text>
               <Text fontSize="md" color="gray.300" >Willow Glen</Text>
@@ -106,7 +106,7 @@ const HomePage = () => {
 
           {/* 📍 Location */}
           <Flex align="center">
-            <Icon as={FaMapMarkerAlt} color="#029685" boxSize={5} mr={3} />
+            <Icon as={FaMapMarkerAlt} color="#698c72" boxSize={5} mr={3} />
             <Box>
               <Text fontWeight="bold" fontSize="xl" color="gray.200" style={{ fontFamily: "Poppins, sans-serif" }}>1082 Lincoln Ave Studio 10</Text>
               <Text fontSize="md" color="gray.300">San Jose, CA 95125</Text>
@@ -115,7 +115,7 @@ const HomePage = () => {
 
           {/* ⏳ Hours */}
           <Flex align="center">
-            <Icon as={FaClock} color="#029685" boxSize={5} mr={3} />
+            <Icon as={FaClock} color="#698c72" boxSize={5} mr={3} />
             <Box>
               <Text fontWeight="bold" fontSize="xl" color="gray.200" style={{ fontFamily: "Poppins, sans-serif" }}>Open 5 Days</Text>
               <Text fontSize="md" color="gray.300" lineHeight="shorter">Thurs: 3:00pm - 7:00pm</Text>
@@ -279,7 +279,7 @@ const HomePage = () => {
         >
           {/* 📞 Phone Number */}
           <Flex align="center">
-            <Icon as={FaPhoneAlt} color="#029685" boxSize={5} mr={3} />
+            <Icon as={FaPhoneAlt} color="#698c72" boxSize={5} mr={3} />
             <Box>
               <Text fontWeight="bold" fontSize="lg" color="gray.200" style={{ fontFamily: "Poppins, sans-serif" }}>(669) 302-2018</Text>
               <Text fontSize="md" color="gray.300">Message for inquiries</Text>
@@ -288,7 +288,7 @@ const HomePage = () => {
 
           {/* 📧 Email */}
           <Flex align="center">
-            <Icon as={FaEnvelope} color="#029685" boxSize={5} mr={3} />
+            <Icon as={FaEnvelope} color="#698c72" boxSize={5} mr={3} />
             <Box>
               <Text fontWeight="bold" fontSize="lg" color="gray.200" style={{ fontFamily: "Poppins, sans-serif" }}>michelle.p.salonstudio@gmail.com</Text>
               <Text fontSize="md" color="gray.300">Send me an email</Text>
@@ -297,7 +297,7 @@ const HomePage = () => {
 
           {/* 🏠 Business Location */}
           <Flex align="center">
-            <Icon as={FaMapMarkerAlt} color="#029685" boxSize={5} mr={3} />
+            <Icon as={FaMapMarkerAlt} color="#698c72" boxSize={5} mr={3} />
             <Box>
               <Text fontWeight="bold" fontSize="lg" color="gray.200" style={{ fontFamily: "Poppins, sans-serif" }}>1082 Lincoln Ave Studio 10</Text>
               <Text fontSize="md" color="gray.300">San Jose, CA 95125</Text>
