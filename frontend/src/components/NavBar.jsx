@@ -65,7 +65,7 @@ const Navbar = () => {
                         as="a"
                         href="https://www.vagaro.com/michellecuts/book-now"
                         colorScheme="pink"
-                        bg="#db4675"
+                        bg="#029685"
                         color="white"
                         borderRadius="md"
                         size="md"
